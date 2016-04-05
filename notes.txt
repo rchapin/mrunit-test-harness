@@ -1,0 +1,27 @@
+Avro Data:
+
+CompositeInputFormatTests:
+  . Scenario:
+    . User website activity log:
+    . Dataset 1:
+        UserData:
+          int id
+          String email
+          String firstName
+          String lastName
+
+    . Dataset 2:
+        Event:
+          int eventType [or enum]
+          timestamp eventTime
+          String ipAddress
+          String userAgent
+
+
+Use Case/Scenario
+
+Two large sets of data, users and events.
+We want to do a map-side join of the users and the events
+Then extract the top n # of users for each type of event
+
+

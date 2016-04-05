@@ -1,0 +1,16 @@
+{"namespace": "com.ryanchapin.hadoop.mapreduce.mrunit.avro",
+ "type": "record",
+ "name": "Event",
+ "fields": [
+    {"name": "uid", "type": "int"},
+    {"name": "eventType",
+     "type": {
+        "namespace": "com.ryanchapin.hadoop.mapreduce.mrunit.avro",
+        "type": "enum",
+        "name": "EventType",
+        "symbols": ["GET", "POST", "PUT", "LOGIN", "LOGOUT"]
+     }
+    },
+    {"name": "timestamp", "type": "string"}
+ ]
+}

@@ -27,20 +27,16 @@ import org.powermock.modules.junit4.PowerMockRunner;
 @PrepareForTest({MultipleDynamicOutputsReducer.class})
 public class MultipleDynamicOutputsReducerTest {
 
-  private MapDriver<LongWritable, Text, Text, IntWritable> mapDriver;
   private ReduceDriver<Text, IntWritable, Text, IntWritable> reduceDriver;
   
   @Before
-  public void setUp() {
-    mapDriver = new MapDriver<LongWritable, Text, Text, IntWritable>(
-        new SimpleMapper());
+  public void setUp() {;
     reduceDriver = new ReduceDriver<Text, IntWritable, Text, IntWritable>(
         new MultipleDynamicOutputsReducer());
   }
   
   @After
   public void tearDown() {
-    mapDriver    = null;
     reduceDriver = null;
   }
   

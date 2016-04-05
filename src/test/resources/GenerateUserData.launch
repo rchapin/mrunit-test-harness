@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/mrunit-test-harness/src/test/java/com/ryanchapin/hadoop/mapreduce/mrunit/utils/GenerateUserData.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.ryanchapin.hadoop.mapreduce.mrunit.utils.GenerateUserData"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/usr/local2/home/rchapin/Documents/software_engineering/workspace/wks_mars/mrunit-test-harness/src/test/resources/FakeNameGenerator.com_6a547180-reverse-order.txt /tmp/users-reversed.avro"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="mrunit-test-harness"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+</launchConfiguration>
